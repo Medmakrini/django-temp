@@ -16,6 +16,12 @@ from django.utils.translation import gettext
 from django.utils.translation import gettext_lazy , pgettext
 django.utils.translation.ugettext = gettext
 django.utils.translation.ugettext_lazy = gettext_lazy
+
+from django.dispatch import Signal
+django.dispatch.Signal=Signal()
+
+
+
 import django_heroku
 from datetime import timedelta
 import os
