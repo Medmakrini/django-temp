@@ -18,8 +18,7 @@ django.utils.translation.ugettext = gettext
 django.utils.translation.ugettext_lazy = gettext_lazy
 
 from django.dispatch import Signal
-Sl=Signal()
-django.dispatch.Signal.__init__() ===Sl
+django.dispatch.Signal.__init__ ===Signal
 
 
 
