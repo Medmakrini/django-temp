@@ -2,7 +2,7 @@ import graphene
 from graphene_django import DjangoObjectType
 from graphql_auth import mutations
 from graphql_auth.schema import UserQuery, MeQuery
-import graphql_jwt
+#import graphql_jwt
 
 from django.contrib.auth.hashers import make_password
 
@@ -22,9 +22,9 @@ class AuthMutation(graphene.ObjectType):
    send_password_reset_email = mutations.SendPasswordResetEmail.Field()
    password_reset = mutations.PasswordReset.Field()
    password_change = mutations.PasswordChange.Field()
-   verify_token = graphql_jwt.Verify.Field()
-   refresh_token = graphql_jwt.Refresh.Field()
-   revoke_token = graphql_jwt.Revoke.Field()
+   #verify_token = graphql_jwt.Verify.Field()
+   #refresh_token = graphql_jwt.Refresh.Field()
+   #revoke_token = graphql_jwt.Revoke.Field()
 
 
 class DeletUser(graphene.Mutation):
