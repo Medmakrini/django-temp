@@ -57,7 +57,6 @@ INSTALLED_APPS = [
     'FormationForm',
     'multiselectfield',
     'graphene_django',
-    'graphql_jwt.refresh_token.apps.RefreshTokenConfig',
     'graphql_auth',
     'django_filters',
     'corsheaders'
