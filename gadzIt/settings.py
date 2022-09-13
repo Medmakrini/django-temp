@@ -12,8 +12,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import django
 from django.utils.encoding import force_str
 django.utils.encoding.force_text = force_str
-from django.utils.translation import gettext as _
-from django.utils.translation import gettext_lazy as _, pgettext
+from django.utils.translation import gettext 
+from django.utils.translation import gettext_lazy , pgettext
 django.utils.translation.ugettext = gettext
 django.utils.translation.ugettext_lazy = gettext_lazy
 import django_heroku
