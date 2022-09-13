@@ -9,9 +9,7 @@ https://docs.djangoproject.com/en/4.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
-import django
-from django.utils.encoding import force_str
-django.utils.encoding.force_text = force_str
+
 
 import django_heroku
 from datetime import timedelta
