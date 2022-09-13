@@ -10,7 +10,6 @@ Django==4.1.1
 django-cors-headers==3.13.0
 django-filter==22.1
 django-graphql-auth==0.3.16
-#django-graphql-jwt==0.3.0
 django-heroku==0.3.1
 django-multiselectfield==0.1.12
 entrypoints==0.4
