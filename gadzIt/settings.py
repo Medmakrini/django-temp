@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import django
 from django.utils.encoding import force_str
 django.utils.encoding.force_text = force_str
-from django.utils.translation import ugettext as _
+from django.utils.translation import gettext as _
 django.utils.translation.ugettext=gettext
 
 import django_heroku
