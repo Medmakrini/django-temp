@@ -17,8 +17,6 @@ from django.utils.translation import gettext_lazy , pgettext
 django.utils.translation.ugettext = gettext
 django.utils.translation.ugettext_lazy = gettext_lazy
 
-from '/app/.heroku/python/lib/python3.10/site-packages/graphql_jwt/signals.py' import token_issued 
-token_issued = Signal(['request', 'user'])
 
 #from django.dispatch import Signal as S
 #django.dispatch.Signal=S
