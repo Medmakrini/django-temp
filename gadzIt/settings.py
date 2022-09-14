@@ -19,8 +19,8 @@ django.utils.translation.ugettext_lazy = gettext_lazy
 
 from django.dispatch import Signal
 
-token_issued = Signal(['request', 'user'])
-token_refreshed = Signal(['request', 'user'])
+token_issued = Signal()
+token_refreshed = Signal()
 
 
 #from django.dispatch import Signal as S
