@@ -6,7 +6,7 @@ certifi==2022.6.15.1
 charset-normalizer==2.1.1
 distlib==0.3.6
 dj-database-url==1.0.0
-Django==4.1.1
+Django==3.2.14
 django-cors-headers==3.13.0
 django-filter==22.1
 django-graphql-auth==0.3.16
