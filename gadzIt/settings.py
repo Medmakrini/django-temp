@@ -89,7 +89,8 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     'http://gadzit.herokuapp.com',
     'http://localhost:3000',
-    'https://gadzit.herokuapp.com'
+    'https://gadzit.herokuapp.com',
+    'https://gadzit.vercel.app'
     ]
 
 CORS_ORIGIN_WHITELIST = [ 
